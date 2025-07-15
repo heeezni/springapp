@@ -1,6 +1,7 @@
 package springapp.cook;
 
-public class Fripan {
+public class Fripan implements Pan{
+					// is a
 
 	public void boil() {
 		System.out.println("불로 음식을 데워요!");
