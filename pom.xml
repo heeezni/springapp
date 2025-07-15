@@ -19,6 +19,26 @@
 	    <artifactId>spring-context</artifactId>
 	    <version>4.3.30.RELEASE</version>
 	</dependency>
+	<!-- aspectjweaver -->
+	<dependency>
+	    <groupId>org.aspectj</groupId>
+	    <artifactId>aspectjweaver</artifactId>
+	    <version>1.8.14</version>
+	</dependency>
+	<!-- aspectjrt -->
+	<dependency>
+	    <groupId>org.aspectj</groupId>
+	    <artifactId>aspectjrt</artifactId>
+	    <version>1.8.14</version>
+	    <!-- scope 없애기-->
+	</dependency>
+	<!-- spring-aop -->
+	<dependency>
+	    <groupId>org.springframework</groupId>
+	    <artifactId>spring-aop</artifactId>
+	    <version>4.3.30.RELEASE</version>
+	</dependency>
+	
   
   </dependencies>
 </project> 
